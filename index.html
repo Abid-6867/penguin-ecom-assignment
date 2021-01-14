@@ -12,30 +12,36 @@
    <header>
         <section class="header-top ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid ">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                          </ul>
-                      </div>
-                    </div>
-                  </nav>
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/Logo, Icon/logo3.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-end pe-5" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </section>
         <section class="header-bottom bg-light pb-5">
             <div class="container">
@@ -43,8 +49,8 @@
                     <div class="col-xl-6">
                         <div class="header-text-box align-items-center ">
                             <h1 class="hero-heading">BE THE PENGUIN <br><span>OF WINTER</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam animi quaerat aperiam dignissimos vel.</p>
-                            <button type="button" class="btn btn-primary btn-lg d-inline  " id="button-sizing"><i class="fas fa-cart-arrow-down me-2"></i>Buy Now</button>
+                            <p class="pt-5 pb-5 fs-5 fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam animi quaerat aperiam dignissimos vel.</p>
+                            <button type="button" class="btn btn-primary btn-lg d-inline  mb-2  " id="button-sizing"><i class="fas fa-cart-arrow-down me-2"></i>Buy Now</button>
                         </div>
                     </div>
                     <div class="col-xl-6">
@@ -60,7 +66,7 @@
 
 
    <main>
-       <section class="women-jacket mt-5 mb-5">
+       <section class="women-jacket section-margin">
             <div class="container">
                 <h1 class="mt-5 mb-5 fs-1 fw-bold">Women jacket</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4 ">
@@ -107,7 +113,7 @@
                   </div>
        </section>
 
-       <section class="women-jacket mt-5 mb-5">
+       <section class="women-jacket section-margin">
         <div class="container">
             <h1 class="mt-5 mb-5 fs-1 fw-bold">Men jacket</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 ">
