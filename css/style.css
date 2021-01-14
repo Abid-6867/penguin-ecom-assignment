@@ -3,10 +3,9 @@ logo-option img {
     height: 50px;
 }
 
-header-img-box img{
+.header-img-box img{
 
     width: 100%;
-    height: 100%;
 
 }
 
@@ -81,5 +80,5 @@ header-img-box img{
 
 .header-bottom{
 
-    height: 700px;
+    
 }
